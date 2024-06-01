@@ -1,0 +1,88 @@
+#popolar_exercises {
+  width: 1000px;
+  height: 768px;
+}
+
+#title_sec2 {
+  height: 35px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+
+  h2 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-left: 28vh;
+    margin-bottom: 10px;
+    font-family: var(--principal-font);
+  }
+
+  p {
+    color: #fff;
+    font-size: 12px;
+    margin-right: 30vh;
+    margin-bottom: 10px;
+    font-family: var(--principal-font);
+  }
+}
+
+#movies_sec2 {
+  display: grid;
+  margin-top: 5vh;
+  margin-left: 29vh;
+  grid-template-rows: 255px 255px;
+  grid-template-columns: 335px 335px 335px;
+}
+
+.exercise_block {
+
+  img {
+    width: 300px;
+    height: 200px;
+    border-radius: 15px;
+    position: absolute;
+  }
+
+  .card_gradient {
+    width: 300px;
+    height: 210px;
+    background-image: linear-gradient(to top, #000, transparent 10%);
+    position: absolute;
+  }
+
+  h3 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 600;
+    margin-top: 28vh;
+    margin-left: 1vh;
+    position: absolute;
+    background-color: transparent;
+    font-family: var(--principal-font);
+  }
+
+  .txt_time {
+    width: 40px;
+    height: 18px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 40vh;
+    margin-top: 28vh;
+    position: absolute;
+    border-radius: 20px;
+    padding: 8px;
+    background-color: #000;
+    font-family: var(--principal-font);
+  }
+
+  p {
+    color: #fff;
+    font-size: 12px;
+    margin-top: 35vh;;
+    margin-left: 1.2vh;
+    position: absolute;
+    font-family: var(--principal-font);
+  }
+}

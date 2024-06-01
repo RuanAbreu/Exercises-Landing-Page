@@ -1,0 +1,149 @@
+#workout_program {
+  display: flex;
+  width: 1000px;
+  height: 1100px;
+}
+
+.box_gray {
+  z-index: 1;
+  width: 750px;
+  height: 550px;
+  background-color: #2d2d2d;
+  margin-top: 12vh;
+  position: absolute;
+  margin-left: 62vh;
+}
+
+.ink_stain {
+  z-index: 2;
+  background-color: transparent;
+  position: absolute;
+  margin-left: 25vh;
+  margin-top: 55vh;
+  width: 350px;
+  height: 150px;
+}
+
+#title_sec3 {
+  z-index: 3;
+  background-color: transparent;
+  position: absolute;
+  color: #fff;
+  margin-top: 18vh;
+  margin-left: 30vh;
+  font-size: 75px;
+  line-height: 1;
+  font-family: var(--principal-font);
+}
+
+#txt_sec3 {
+  z-index: 2;
+  line-height: 2;
+  position: absolute;
+  background-color: transparent;
+  color: #fff;
+  margin-top: 20vh;
+  margin-left: 108vh;
+  font-family: var(--principal-font);
+}
+
+#texts_workout button {
+  z-index: 2;
+  position: absolute;
+  margin-top: 42vh;
+  margin-left: 108vh;
+}
+
+/*Imagens dos atletas seção 3*/
+#atlets_sec3 {
+  display: flex;
+}
+
+#trainer_01 {
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+    font-family: var(--principal-font);
+}
+
+#name_01 {
+  color: #fff;
+  font-weight: 200;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+  font-family: var(--principal-font);
+}
+
+.small_img {
+  position: absolute;
+  z-index: 2;
+  margin-top: 80vh;
+  margin-left: 32vh;
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+/*Img 02 - sec3*/
+.small_img02 {
+  position: absolute;
+  z-index: 2;
+  margin-top: 112vh;
+  margin-left: 64vh;
+
+  img {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+#trainer_02 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+  font-family: var(--principal-font);
+}
+
+#name_02 {
+color: #fff;
+font-weight: 200;
+letter-spacing: 1.5px;
+font-size: 12px;
+font-family: var(--principal-font);
+}
+
+/*Img 03 - sec3*/
+#big_img {
+  position: absolute;
+  z-index: 2;
+  margin-top: 56vh;
+  margin-left: 96vh;
+
+  img {
+    width: 350px;
+    height: 350px;
+    background-color: transparent;
+  }
+}
+
+#trainer_03 {
+  color: #fff;
+  margin-left: 10px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-size: 12px;
+  font-family: var(--principal-font);
+}
+
+#name_03 {
+color: #fff;
+font-weight: 200;
+margin-left: 10px;
+letter-spacing: 1.5px;
+font-size: 12px;
+font-family: var(--principal-font);
+}

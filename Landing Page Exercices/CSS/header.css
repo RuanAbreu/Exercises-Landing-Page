@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url(/CSS/section1_homepage.css);
+@import url(/CSS/sec2_popularexercises.css);
+@import url(/CSS/sec3_workoutprogram.css);
+@import url(/CSS/sec4_classes.css);
+
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+:root {
+  --principal-font: "Poppins", sans-serif;
+  --bg-btn: #636363;
+}
+
+/*Menu de Navegação*/
+#workout_btn {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: var(--principal-font);
+}
+
+#nav_menu {
+  height: 15vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#nav_menu ul {
+  display: flex;
+  list-style: none;
+}
+
+#nav_menu ul li {
+  color: #fff;
+  cursor: pointer;
+  font-size: 12px;
+  margin-left: 30px;
+  padding: 8px 16px;
+  letter-spacing: 3px;
+  text-decoration: none;
+  font-family: var(--principal-font);
+}
+
+#nav_bar li:hover {
+  padding: 8px;
+  border-radius: 20px;
+  border: solid 1px #fff;
+  background-color: #b6b6b651;
+}

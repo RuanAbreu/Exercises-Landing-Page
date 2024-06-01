@@ -1,0 +1,40 @@
+#box_classes {
+  height: 600px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.modules_classes {
+  margin: auto;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  border-bottom: solid 1px #fff;
+}
+
+.number_classes {
+  color: #808080;
+  font-family: var(--principal-font);
+}
+
+.title_classes {
+  color: #fff;
+  font-family: var(--principal-font);
+}
+
+.number_videos {
+  color: #808080;
+  font-family: var(--principal-font);
+}
+
+.name_module {
+    width: 160px;
+    height: 50px;
+}
+
+.material-icons {
+    color: #fff;
+}
